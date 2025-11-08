@@ -1,4 +1,4 @@
-package Estufa;
+package estufa;
 
 public class Relatorio {
 }

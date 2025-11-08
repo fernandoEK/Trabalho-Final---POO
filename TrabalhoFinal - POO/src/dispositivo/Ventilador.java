@@ -1,4 +1,4 @@
-package Dispositivo;
+package dispositivo;
 
 public class Ventilador {
 }

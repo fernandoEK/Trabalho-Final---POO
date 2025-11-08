@@ -1,4 +1,4 @@
-package Cultura;
+package cultura;
 
 public enum FaseCultura {
     GERMINACAO,
