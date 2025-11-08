@@ -8,8 +8,7 @@ public class Cultura {
     private double necessidadeHidrica;
     private double producaoEstimativa;
 
-    public Cultura(int id, String nome, FaseCultura faseCrescimento,
-                   double necessidadeHidrica, double producaoEstimativa) {
+    public Cultura(int id, String nome, FaseCultura faseCrescimento, double necessidadeHidrica, double producaoEstimativa) {
         this.id = id;
         this.nome = nome;
         this.faseCrescimento = faseCrescimento;
@@ -47,6 +46,7 @@ public class Cultura {
 
     @Override
     public String toString() {
-        return nome + " (fase: " + faseCrescimento + ")";
+        return "Cultura: " + nome +
+                " | Fase: " + faseCrescimento;
     }
 }
