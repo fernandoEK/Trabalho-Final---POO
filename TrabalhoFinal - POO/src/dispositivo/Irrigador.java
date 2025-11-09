@@ -1,4 +1,13 @@
-package dispositivo;
+public class Irrigador implements Controlavel {
+    private boolean ligado;
 
-public class Irrigador {
+    public void ligar() {
+        ligado = true;
+    }
+    public void desligar() {
+        ligado = false;
+    }
+    public boolean verificarStatus() {
+        return ligado;
+    }
 }
